@@ -14,6 +14,8 @@ public class OOPSintro {
 	c1.reliable();
 	c3.noise();
 	c2.mexico();
+	Dog d4=new Dog("kangal","white","canavar",4,15);
+	d4.display();
 	}
 
 }
