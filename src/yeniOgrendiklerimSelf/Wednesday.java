@@ -1,7 +1,5 @@
 package yeniOgrendiklerimSelf;
 
-
-
 class Araba{
 	
 	//class                    object            method () 
@@ -24,14 +22,8 @@ class Araba{
 	boolean fener=false;
 	return fener;
 	
-	}
-	
-	
-	
-	
-		
+	}		
 }
-
 public class Wednesday {
 
 	public static void main(String[] args) {

@@ -9,7 +9,7 @@ char grad;
 void speak() {
 System.out.println("my name is "+name+ " my age is  "+age+" my roll is "+roll+" my graade is "+grad);
 }
-void grade(int avrg){	
+int grade(int avrg){	
 if((avrg>70) &&(avrg<=100)) {
 	grad='A';
 }else if((avrg>50)&&(avrg<=70)){
@@ -17,7 +17,7 @@ if((avrg>70) &&(avrg<=100)) {
 }else  {
 	grad='F';
 }
-System.out.println(grad);
+return grad;
 }	
 }
 public class TestClassMeth {

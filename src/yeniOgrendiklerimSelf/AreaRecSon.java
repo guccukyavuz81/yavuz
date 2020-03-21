@@ -6,7 +6,7 @@ int length;
 int width;
 int area;
 
-int input(int l, int w){
+int area(int l, int w){
 width=w;
 length=l;
 area=w*l;
@@ -25,8 +25,8 @@ public class AreaRecSon {
 
 		Arr a1=new Arr();
 		Arr a2=new Arr();
-		System.out.println(a1.input(20, 50));
-		System.out.println(a2.input(12, 9));
+		System.out.println(a1.area(20, 50));
+		System.out.println(a2.area(12, 9));
 		a1.display();
 		a2.display();
 

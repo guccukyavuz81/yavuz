@@ -6,7 +6,7 @@ class Team{
 	int star;
 	String color;
 
-	void input(String n,int s,String c) {
+	void Team(String n,int s,String c) {
 		name=n;
 		star=s;
 		color=c;
@@ -24,9 +24,9 @@ public class ObjMetClsPrc {
 		Team f=new Team();
 		Team b=new Team();
 		
-		c.input("cimbom", 4, "yellowred");
-		f.input("fener", 3, "yellowdeepblue");
-		b.input("besiktas", 3, "blackwhite");
+		c.Team("cimbom", 4, "yellowred");
+		f.Team("fener", 3, "yellowdeepblue");
+		b.Team("besiktas", 3, "blackwhite");
 		c.display();
 		f.display();
 		b.display();

@@ -5,12 +5,12 @@ public class CallMethodGrade {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		grade(75.79);
-		grade(69.99);
-		grade(95.99);
-		grade(88.29);
+		System.out.println(grade(75.79));
+		System.out.println(grade(69.99));
+		System.out.println(grade(95.99));
+		System.out.println(grade(88.29));
 	}
-	public static void grade(double x) {
+	 static char grade(double x) {
 		char grade;
 		
 		if(x>=90) {
@@ -22,7 +22,8 @@ public class CallMethodGrade {
 		}else {
 		grade='F';
 		}
-		System.out.println(grade);
+		return grade;
+		//System.out.println(grade);
 	}
 }
  

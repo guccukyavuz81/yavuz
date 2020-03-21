@@ -13,7 +13,7 @@ public class PrimeAsel {
 		 * 2(1,2),3(2,3),5(2,3,4,5),7(2,3,4,5,6,7),11,13,17
 		 */
 
-		int given = 11;
+		int given = 13;
 		boolean isPrime=true;
 		
 		if(given>1) {
@@ -28,6 +28,7 @@ public class PrimeAsel {
 			isPrime=false;
 		}
 		System.out.println("Given number "+given+" is prime? "+isPrime);
+		
 	}
 
 }

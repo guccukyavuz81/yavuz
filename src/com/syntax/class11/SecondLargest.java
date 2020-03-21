@@ -3,12 +3,15 @@ package com.syntax.class11;
 public class SecondLargest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// CALISMIYOR FIX IT
 
 		int [] nums= {91,23,30,31,62,58};
-		int largest=nums[0];
-		int seclarg=nums[0];
 		int min=nums[0];
+		int largest=0;
+		int seclarg=0;
+		//int largest=nums[0];
+		//int seclarg=nums[0];
+		
 		int secmin=nums[0];
 		for(int x=0; x<nums.length; x++) {
 		if(nums[x]>largest) {
