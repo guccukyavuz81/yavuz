@@ -36,6 +36,7 @@ public class ClassPrct {
 		System.out.println("..............................................");
 		p1.takim();
 		System.out.println(p1.fener);
+		
 	}
   
 }

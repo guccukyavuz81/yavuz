@@ -4,8 +4,10 @@ class Circ{
 	
 int radius;
 
-Circ(int r){
-	radius=r;
+//Circ(int r){    EITHER OR
+//radius=r;
+Circ(int radius){
+this.radius=radius;
 }
 
 double getArea(){

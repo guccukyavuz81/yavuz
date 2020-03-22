@@ -1,5 +1,5 @@
 package yeniOgrendiklerimSelf;
-class deneme{
+class denemee{
 	
 	static int sum(int x1,int x2) {
 		int total=0;
@@ -28,7 +28,7 @@ public class CallReturnMethod {
 		// eger object olsuturursak static olmadan da objrefervariable ile call yapabiliyoruz
 		//eger object yoksa call etmek icin STATIC METHOD olmak zorunda
 		
-		System.out.println(deneme.sum(1,10));
+		System.out.println(denemee.sum(1,10));
 	}
 
 }
