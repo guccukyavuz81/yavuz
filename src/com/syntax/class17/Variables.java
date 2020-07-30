@@ -4,7 +4,7 @@ class tst{
 		Variables va=new Variables();
 		va.color="black";
 		va.memory=64;
-		Variables.brand="nokia";
+		Variables.brand="nokia"; 
 		Variables.touchscreen=true;
 		Variables.display();
 		va.displayspec();
